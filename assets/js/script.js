@@ -64,7 +64,7 @@ var createTaskActions = function (taskId) {
     var deleteButtonEl = document.createElement("button");
     deleteButtonEl.textContent = "Delete";
     deleteButtonEl.className = "btn delete-btn";
-    deleteButtonEl.setAttribute = ("data-task-id", taskId);
+    deleteButtonEl.setAttribute("data-task-id", taskId);
 
     actionContainerEl.appendChild(deleteButtonEl);
 
